@@ -1,4 +1,4 @@
-defmodule TestingEnv.MocksAsLocal.Twitter.HTTPClient do
+defmodule TestForms.MocksAsLocal.Twitter.HTTPClient do
     @moduledoc """
     Implementation to connect to Twitter API.
     """

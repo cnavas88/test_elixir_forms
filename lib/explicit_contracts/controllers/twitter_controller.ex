@@ -1,4 +1,4 @@
-defmodule TestingEnv.ExplicitContract.Controllers.TwitterController do
+defmodule TestForms.ExplicitContract.Controllers.TwitterController do
   @moduledoc """
   - We can configure the twitter api for differents environments
   - Example:
@@ -16,6 +16,6 @@ defmodule TestingEnv.ExplicitContract.Controllers.TwitterController do
   end
 
   defp twitter_api do
-    Application.get_env(:testing_env, :twitter_api)
+    Application.get_env(:test_forms, :twitter_api)
   end
 end

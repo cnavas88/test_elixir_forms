@@ -1,8 +1,8 @@
-defmodule TestingEnv.ExplicitContract.Twitter.HTTPClient do
+defmodule TestForms.ExplicitContract.Twitter.HTTPClient do
   @moduledoc """
   Implementation to connect to Twitter API.
   """
-  alias TestingEnv.ExplicitContract.Twitter.Contract, as: Twitter
+  alias TestForms.ExplicitContract.Twitter.Contract, as: Twitter
 
   @behaviour Twitter
 

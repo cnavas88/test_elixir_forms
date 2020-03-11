@@ -1,8 +1,8 @@
-defmodule TestingEnv.ExplicitContract.Twitter.Sandbox do
+defmodule TestForms.ExplicitContract.Twitter.Sandbox do
   @moduledoc """
   Implementation to connect to Sandbox Twitter API for development mode.
   """
-  alias TestingEnv.ExplicitContract.Twitter.Contract, as: Twitter
+  alias TestForms.ExplicitContract.Twitter.Contract, as: Twitter
 
   @behaviour Twitter
 

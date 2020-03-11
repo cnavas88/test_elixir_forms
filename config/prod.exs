@@ -1,3 +1,3 @@
 use Mix.Config
 
-config :testing_env, :twitter_api, TestingEnv.ExplicitContract.Twitter.HTTPClient
+config :test_forms, :twitter_api, TestForms.ExplicitContract.Twitter.HTTPClient

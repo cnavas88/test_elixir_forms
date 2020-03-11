@@ -1,4 +1,4 @@
-defmodule TestingEnv.MixProject do
+defmodule TestForms.MixProject do
   use Mix.Project
 
   @test_envs [:unit, :integration]
@@ -6,7 +6,7 @@ defmodule TestingEnv.MixProject do
 
   def project do
     [
-      app: :testing_env,
+      app: :test_forms,
       version: @version,
       elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env()),

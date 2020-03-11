@@ -1,8 +1,8 @@
-defmodule TestingEnv.MockAsLocal.Controllers.TwitterController do
+defmodule TestForms.MockAsLocal.Controllers.TwitterController do
   @moduledoc """
 
   """
-  alias TestingEnv.MocksAsLocal.Twitter.HTTPClient
+  alias TestForms.MocksAsLocal.Twitter.HTTPClient
 
   @get_username &HTTPClient.get_username/1
 

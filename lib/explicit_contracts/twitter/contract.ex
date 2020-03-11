@@ -1,4 +1,4 @@
-defmodule TestingEnv.ExplicitContract.Twitter.Contract do
+defmodule TestForms.ExplicitContract.Twitter.Contract do
   @moduledoc """
   Explicit Contract for twitter.
 

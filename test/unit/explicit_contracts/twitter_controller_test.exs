@@ -1,10 +1,10 @@
-defmodule TestingEnv.Unit.ExplicitContract.TwitterControllerTest do
+defmodule TestForms.Unit.ExplicitContract.TwitterControllerTest do
   @moduledoc """
   
   """
   use ExUnit.Case
 
-  alias TestingEnv.ExplicitContract.Controllers.TwitterController
+  alias TestForms.ExplicitContract.Controllers.TwitterController
 
   describe "show/2." do
     test "twitter return username with explicit contracts." do

@@ -1,8 +1,8 @@
-defmodule TestingEnv.ExplicitContract.Twitter.InMemory do
+defmodule TestForms.ExplicitContract.Twitter.InMemory do
   @moduledoc """
   Implmenetation Mock for testing.
   """
-  alias TestingEnv.ExplicitContract.Twitter.Contract, as: Twitter
+  alias TestForms.ExplicitContract.Twitter.Contract, as: Twitter
 
   @behaviour Twitter
 

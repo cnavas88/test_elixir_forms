@@ -1,10 +1,10 @@
-defmodule TestingEnv.Unit.MocksAsLocal.TwitterControllerTest do
+defmodule TestForms.Unit.MocksAsLocal.TwitterControllerTest do
   @moduledoc """
   
   """
   use ExUnit.Case
 
-  alias TestingEnv.MockAsLocal.Controllers.TwitterController
+  alias TestForms.MockAsLocal.Controllers.TwitterController
 
   describe "show/2." do
     test "twitter return username with mocks as local." do

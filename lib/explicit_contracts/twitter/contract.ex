@@ -25,11 +25,21 @@ defmodule TestForms.ExplicitContract.Twitter.Contract do
 
   Therefore, in order to fully test our Twitter usage, we need at least two types of tests. Unit tests for MyApp.Twitter.HTTP and an integration test where MyApp.Twitter.HTTP  is used as an adapter.
   """
-  
+
   @doc "..."
   @callback get_username(username :: String.t) :: map()
 
-  def get_username(_) do
-    raise "Ooops. Nos specific implementation for get_username contract."
+  # Define default functions for the contract.
+  defmacro __using__(_) do
+    quote do
+      @behaviour TestForms.ExplicitContract.Twitter.Contract
+
+      def get_username(_) do
+        raise "get_username/1 Not implemented."
+      end
+
+      defoverridable [get_username: 1]
+    end
   end
+
 end

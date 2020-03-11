@@ -14,9 +14,6 @@ defmodule TestForms.MixProject do
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
-      elixirc_options: [
-        warnings_as_errors: true
-      ],
       deps: deps()
     ]
   end

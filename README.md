@@ -1,3 +1,11 @@
+### Run unit testing
+
+> mix test.unit
+
+### Run integration testing
+
+Not implemented yet.
+
 ## Important testing comments.
 
 - Mocks/stubs do not remove the need to define an explicit interface 

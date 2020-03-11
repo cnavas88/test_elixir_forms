@@ -36,7 +36,10 @@ defmodule TestForms.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
+      {:dialyxir, "~> 0.5", only: [:dev], runtime: false}
+    ]
   end
 
   defp test_paths(:integration), do: ["test/integration"]

@@ -1,7 +1,5 @@
 defmodule TestForms.Unit.MocksAsModule.TwitterControllerTest do
-  @moduledoc """
-  
-  """
+  @moduledoc false
   use ExUnit.Case
 
   alias TestForms.MockAsModule.Controllers.TwitterController

@@ -1,7 +1,5 @@
 defmodule TestForms.Unit.ExplicitContract.TwitterControllerTest do
-  @moduledoc """
-  
-  """
+  @moduledoc false
   use ExUnit.Case
 
   alias TestForms.ExplicitContract.Controllers.TwitterController

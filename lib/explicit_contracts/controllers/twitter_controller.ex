@@ -4,9 +4,6 @@ defmodule TestForms.ExplicitContract.Controllers.TwitterController do
   - Example:
     * Before => TestingEnv.TwitterClient.get_username(username)
     * After => twitter_api().get_username(username)
-  
-  - This way we can choose the best strategy to retrieve data from 
-  Twitter per environment. (Mock, Real Twitter API and Sandbox API).
   """
 
   def show(%{"username" => username}) do

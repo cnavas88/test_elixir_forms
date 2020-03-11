@@ -4,12 +4,11 @@ defmodule TestForms.ExplicitContract.Twitter.Sandbox do
   """
   use TestForms.ExplicitContract.Twitter.Contract
 
-  # @impl Twitter
-  # def get_username(username) do
-  #   IO.puts "<<<< SENDING TO SANDBOX >>>> "
+  def get_username(username) do
+    IO.puts "<<<< SENDING TO SANDBOX >>>> "
 
-  #   %{
-  #     username: "SANDBOX => " <> username
-  #   }
-  # end
+    %{
+      username: "SANDBOX => " <> username
+    }
+  end
 end

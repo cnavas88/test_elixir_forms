@@ -1,3 +1,3 @@
 use Mix.Config
 
-config :test_forms, :twitter_api, TestForms.ExplicitContract.Twitter.Sandbox
+config :test_forms, twitter_api: TestForms.ExplicitContract.Twitter.Sandbox

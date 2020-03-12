@@ -1,3 +1,8 @@
+**IMPORTANT**: This examples are without any dependencies. We avoid to
+use some dependencies to understand how to do our code testable.
+
+You can use dependencies: mock, mox and meck.
+
 ### Run unit testing
 
 > mix test.unit
@@ -74,6 +79,8 @@ How work with explicit contracts:
 - Add in env config the module of implementation.
 - Replace dependency in your code.
 
+The best way for this option is to use **STUBS** but you can use **MOCKS**.
+
 ### Mock as local or module.
 
 This way is more useful when a module depends another heavy module.
@@ -83,6 +90,15 @@ We send the dependency mock (function or module) per parameters. How works:
 - Add optional param in the function.
 - This params has the production dependency as default value.
 - In test we generate a anonym function as a mock and pass as a parameter.
+
+### Using stubs
+
+This way is more useful when we want differents results depending
+of the parameters. For example to query to database:
+
+Depending of the table and the query we have differents results.
+
+the way to procedure is the same that use explicit contract with mocks.
 
 ## General
 
